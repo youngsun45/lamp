@@ -1,10 +1,11 @@
-tutum-docker-lamp
+suny-docker-lamp
 =================
 
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
+It from [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/) Out-of-the-box LAMP image (PHP+MySQL)
 
-Out-of-the-box LAMP image (PHP+MySQL)
+Note:
 
+   add China's server for  apt update
 
 Usage
 -----
