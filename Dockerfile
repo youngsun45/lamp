@@ -41,11 +41,8 @@ RUN mkdir -p /app && rm -fr /var/www/html && ln -s /app /var/www/html \
 ENV PHP_UPLOAD_MAX_FILESIZE 50M
 ENV PHP_POST_MAX_SIZE 50M
 
-# Add volumes for /App
-VOLUME ["/app"]
-
 # Add volumes for MySQL 
-VOLUME  ["/etc/mysql", "/var/lib/mysql" ]
+VOLUME  ["/etc/mysql", "/var/lib/mysql","/app"]
 
 EXPOSE 80 3306
 CMD ["/run.sh"]
